@@ -1,0 +1,18 @@
+# Ignore data and model files
+data/raw/*
+data/processed/*
+models/*
+results/sample_images/*
+results/sample_json/*
+__pycache__/
+*.pyc
+*.ipynb_checkpoints/
+*.log
+
+# Ignore Google Drive paths
+/content/drive/
+
+# Ignore environment files
+.env
+venv/
+*.egg-info/
